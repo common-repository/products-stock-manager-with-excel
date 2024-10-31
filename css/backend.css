@@ -1,0 +1,391 @@
+
+
+/* === Main Container === */
+
+.stockManagerWooCommerce{
+		overflow:hidden;
+}
+
+/* === Header Elements === */
+
+
+
+/* === Footer Elements === */
+.web_logo{
+	float:right;
+}
+.web_logo img{
+	width:150px;
+	height:auto;	
+}
+.stockManagerWooCommerce .rating i.fa-star{
+	color:gold;
+}
+
+/* === Ajaxify === */
+.stockManagerWooCommerce.loading > * {
+    opacity:0.2;
+}
+
+.stockManagerWooCommerce.loading:before {
+    position:fixed;
+    content: "Loading...";
+    font-size:2em;
+    padding: 22px;
+    background: #000;
+    background: url(../images/loading.gif) no-repeat center center;
+    color: #777;
+    width: 50%;
+    height:50%;
+    margin-left:15%;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+/* === Container Elements === */
+
+.stockManagerWooCommerce,.stockManagerWooCommerce p{
+		font-size:14px;
+}
+
+.stockManagerWooCommerce h2{
+		font-size:16px;
+}
+
+.stockManagerWooCommerce iframe{
+	width:100%;
+	height:500px;
+}
+
+.stockManagerWooCommerce h3{
+		font-size:15px;
+		padding:20px;
+}
+.stockManagerWooCommerce h4{
+		font-size:15px;
+}
+
+.stockManagerWooCommerce .center{
+	text-align:center;
+}
+
+
+/* ======= Excel Upload Elements ======= */
+
+
+.stockManagerWooCommerce .uploader {
+	position:relative;
+	width:99%; 
+	height:300px;
+	background:#f3f3f3; 
+	border:1px dashed #e8e8e8;
+	background-size:cover;
+	margin:0 auto;
+	text-align:center;
+	background:url('../images/default.png') no-repeat left center;
+}
+.smwFile{		
+	width:100%;
+	position:absolute;	
+	height:300px;
+	top:0;
+	left:0;
+	z-index:2;
+	opacity:0;
+	cursor:pointer;
+}
+.stockManagerWooCommerce .uploader .userSelected{
+	max-width:90%;
+	width:90%;
+	z-index:1;
+	border:none;
+	display:none;
+}
+
+/* ============ Form Elements ============ */
+
+.woo-form-wrapper, .woo-form-wrapper form{
+	overflow:hidden;
+	min-height:400px;
+	width:100%;
+}
+.stockManagerWooCommerce input[type=text],.stockManagerWooCommerce input[type=number], .stockManagerWooCommerce textarea{
+		border:none;
+		border-bottom:1px solid #0073aa;
+		transition:all .3s ease-in-out;
+		cursor:text;
+}
+.stockManagerWooCommerce input[type=text]:hover,.stockManagerWooCommerce input[type=number]:hover, .stockManagerWooCommerce textarea:hover{
+		background:#ffffcc;
+}
+
+/* =============== Grid - Import Page  ================== */
+
+.stockManagerWooCommerce  .column1,
+.stockManagerWooCommerce  .columns2,
+.stockManagerWooCommerce  .columns3,
+.stockManagerWooCommerce  .columns4,
+.stockManagerWooCommerce  .columns5,
+.stockManagerWooCommerce  .columns6{
+	float:left;
+	box-sizing:border-box;
+	padding:10px;
+	margin:0 0.5%;
+}
+
+.stockManagerWooCommerce .columns2, .stockManagerWooCommerce .columns3 h2{
+	color:#0073aa;
+}
+
+.stockManagerWooCommerce  .column1{
+	width:100%;
+	float:none;
+}
+.stockManagerWooCommerce  .columns2{
+	width:49% ;
+}
+.stockManagerWooCommerce  .columns3{
+	width:32.3% ;
+}
+.stockManagerWooCommerce  .columns4{
+	width:24%;
+}
+.stockManagerWooCommerce  .columns5{
+	width:19%;
+}
+.stockManagerWooCommerce  .columns6{
+	width:15.6%;
+}
+
+.stockManagerWooCommerce .stockManagerflex{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+.stockManagerWooCommerce .stockManagerflex > div{
+	width:50%;
+	padding:20px;
+}
+
+.stockManagerWooCommerce  .tableexport-caption {
+    caption-side: top !important;
+	text-align:left;
+}
+
+.stockManagerWooCommerce button{
+	background:#42b72a;
+	color:#fff;
+	text-align:right;
+	border:none;
+	margin:10px;
+	padding:5px;
+	cursor:pointer;
+}
+
+.stockManagerWooCommerce .msg,.stockManagerWooCommerce .response{
+		background:#fff;
+		padding:10px;
+		margin:5px;
+		border:1px solid #777;
+		display:none;
+		position:absolute;
+		left:30%;
+		top:5%;
+		width:60%;
+}
+.stockManagerWooCommerce .success{
+		background:lightGreen;
+		border:1px solid green;
+		color:#fff;
+		padding:5px;
+}
+.stockManagerWooCommerce .error{
+		background:#FFCCCB;
+		border:1px solid red;
+		padding:5px;
+}
+.stockManagerWooCommerce .warning{
+		background:#d9534f;
+		color:#fff;
+		padding:5px;
+}
+.stockManagerWooCommerce table{
+		text-align:center;
+}
+.stockManagerWooCommerce #toskuExport th{
+		background:#777;
+		color:#fff;
+		padding:5px;
+}
+
+
+.stockManagerWooCommerce .exportTableWrapper{
+	overflow-x:scroll;
+}
+
+
+.stockManagerWooCommerce th{
+	text-align:center;
+}
+
+input.proVersion{
+	border:2px solid #fff;
+	background:#fefefe !important;
+	
+}
+h2 a.proVersion{
+	background:#42b72a !important;
+	color:#fff !important
+}
+h2 a.disabled{
+	background:#fefefe !important;
+	color:#dddddd !important
+}
+span.proVersion{
+	color:#9c9a9a !important
+}
+
+.proVersion:hover{
+	cursor:pointer;
+}
+
+.proUrl{
+	color:#fff;
+	background:#42b72a;
+	padding:10px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.proUrl:hover{
+	color:#fff;
+	box-shadow:0 2px 2px #777;
+}
+
+/*  PRO VERSION MODAL */
+#stockManagerWooCommerceModal, #extendwp_extensions_popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99999999999999999999999999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+#stockManagerWooCommerceModal .modal-content, .extendwp_extensions_content {
+    background-color: #fefefe;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%; /* Could be more or less, depending on screen size */
+	overflow:hidden;
+}
+
+.extendwp_extensions_content img {
+	max-width:100%;
+}
+
+.extendwp_extensions_content div{
+	margin-bottom:30px;
+}
+
+
+/* The Close Button */
+#stockManagerWooCommerceModal .close , .extendwp_close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#stockManagerWooCommerceModal .close:hover,
+#stockManagerWooCommerceModal .close:focus  , .extendwp_close:hover, .extendwp_close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.stockManagerWooCommerceForm .premium_img{
+	max-width:50%;
+	max-height:50%;	
+}
+
+.stockManagerWooCommerceForm .premium_msg{
+		display:none;
+		background:#F08080;
+		border:1px solid red;
+		text-align:center;
+		padding:10px;
+		margin:10px;
+}
+
+.stockManagerWooCommercecolumns2{
+	width:49% ;
+	float:left;
+}
+
+.extendwp_extensions, .extendwp_extensions_content .button_extensions {
+	background:#1fa67a;
+	border:none;
+	margin-left:30px;
+}
+
+
+.extendwp_extensions:hover,.extendwp_extensions:active,.extendwp_extensions:focus, .extendwp_extensions_content .button_extensions:hover {
+	background:#21b384;
+	border:none;
+}
+
+.extendwp_extensions_content .extendwp_opacity{
+	opacity:0.6;
+}
+
+.extend_flex{
+	display:flex;
+	align-content:center;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.extend_flex > div{
+	width:25% !important;
+	padding:15px !important;
+	box-sizing:border-box !important;
+}
+/* =============== Responsive ================== */
+
+@media(max-width:992px){
+	
+	.extend_flex{
+		display:block
+	}
+	.extend_flex > div{
+		width:100% !important;
+		padding:10px !important;
+		box-sizing:border-box !important;
+	}	
+	
+	
+	.stockManagerWooCommercecolumns2{
+		float:none !important;
+		width:99% !important;
+	}	
+	.stockManagerWooCommerce  .columns2,.stockManagerWooCommerce  .columns3,.stockManagerWooCommerce  .columns4,.stockManagerWooCommerce  .columns5,.stockManagerWooCommerce  .columns6{
+		float:none;
+		width:99%;
+	}	
+	
+	.stockManagerWooCommerce  .left_wrap, .stockManagerWooCommerce .right_wrap{
+		float:none;
+		width:100%;
+		border-right:none;
+	}
+
+	.stockManagerWooCommerce .border{
+		border-right:none;
+	}		
+		
+}

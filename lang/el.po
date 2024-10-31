@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WebdWoocommerceCrosellPopupPro\n"
+"POT-Creation-Date: 2018-02-21 18:15+0200\n"
+"PO-Revision-Date: 2018-02-21 18:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _t;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: webd-woocommerce-crosell-popup-pro.php:101
+#: webd-woocommerce-crosell-popup-pro.php:134
+msgid "View Your Cart"
+msgstr "Δείτε το καλάθι σας"
+
+#: webd-woocommerce-crosell-popup-pro.php:102
+#: webd-woocommerce-crosell-popup-pro.php:135
+msgid "Checkout"
+msgstr "Πληρωμή"
+
+#: webd-woocommerce-crosell-popup-pro.php:138
+msgid "You may also like…"
+msgstr "Μπορεί επίσης να σας αρέσει… "
